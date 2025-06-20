@@ -9,6 +9,7 @@
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       color: #333;
       padding: 20px;
+      text-align: center;
       line-height: 1.7;
     }
 
@@ -18,35 +19,51 @@
       border-bottom: 4px solid #00b4d8;
       padding-bottom: 10px;
       margin-bottom: 20px;
-      text-align: center;
     }
 
     .section {
       margin-bottom: 30px;
     }
 
+    .social-links {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+    }
+
     .social-links a {
       display: inline-flex;
       align-items: center;
-      gap: 8px;
-      background-color: #ffffff;
-      padding: 10px 15px;
+      justify-content: center;
+      gap: 10px;
+      width: 230px;
+      padding: 12px;
       border-radius: 10px;
-      margin: 5px;
       text-decoration: none;
-      color: #000;
+      color: white;
+      font-weight: bold;
+      font-size: 16px;
       box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
-      transition: background-color 0.3s;
+      transition: transform 0.3s;
     }
 
     .social-links a:hover {
-      background-color: #d0f0ff;
+      transform: scale(1.05);
     }
 
     .social-links img {
-      width: 24px;
-      height: 24px;
+      width: 26px;
+      height: 26px;
     }
+
+    /* ألوان التطبيقات */
+    .whatsapp { background-color: #25D366; }
+    .sms { background-color: #4a4a4a; }
+    .call { background-color: #0096c7; }
+    .instagram { background-color: #E1306C; }
+    .facebook { background-color: #1877f2; }
+    .telegram { background-color: #0088cc; }
 
     .payment {
       display: flex;
@@ -65,23 +82,8 @@
 
     .footer {
       margin-top: 50px;
-      text-align: center;
       font-size: 20px;
       color: #0077b6;
-    }
-
-    .contact-btns a {
-      display: inline-block;
-      background-color: #00b4d8;
-      color: white;
-      padding: 10px 20px;
-      margin: 10px;
-      border-radius: 8px;
-      text-decoration: none;
-    }
-
-    .contact-btns a:hover {
-      background-color: #0077b6;
     }
   </style>
 </head>
@@ -101,11 +103,31 @@
   <div class="section">
     <h2>📱 وسائل التواصل</h2>
     <div class="social-links">
-      <a href="sms:07714064135"><img src="https://cdn-icons-png.flaticon.com/512/893/893257.png" alt="SMS"> أرسل SMS</a>
-      <a href="https://wa.me/9647714064135"><img src="https://cdn-icons-png.flaticon.com/512/220/220236.png" alt="WhatsApp"> واتساب</a>
-      <a href="https://www.instagram.com/zain.prog1?igsh=MWZvdjZ1bXE3azdwag%3D%3D&utm_source=qr"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram"> إنستغرام</a>
-      <a href="https://www.facebook.com/share/1Bs3a55ADo/?mibextid=wwXIfr"><img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook"> فيسبوك</a>
-      <a href="https://t.me/lz_y33"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" alt="Telegram"> تليجرام: @lz_y33</a>
+
+      <a class="sms" href="sms:07714064135">
+        <img src="https://cdn-icons-png.flaticon.com/512/893/893257.png" alt="SMS"> SMS
+      </a>
+
+      <a class="call" href="tel:07714064135">
+        <img src="https://cdn-icons-png.flaticon.com/512/724/724664.png" alt="Call"> اتصال مباشر
+      </a>
+
+      <a class="whatsapp" href="https://wa.me/9647714064135">
+        <img src="https://cdn-icons-png.flaticon.com/512/220/220236.png" alt="WhatsApp"> واتساب
+      </a>
+
+      <a class="instagram" href="https://www.instagram.com/zain.prog1?igsh=MWZvdjZ1bXE3azdwag%3D%3D&utm_source=qr">
+        <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram"> إنستغرام
+      </a>
+
+      <a class="facebook" href="https://www.facebook.com/share/1Bs3a55ADo/?mibextid=wwXIfr">
+        <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook"> فيسبوك
+      </a>
+
+      <a class="telegram" href="https://t.me/lz_y33">
+        <img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" alt="Telegram"> تليجرام: @lz_y33
+      </a>
+
     </div>
   </div>
 
@@ -113,18 +135,18 @@
     <h2>💰 الدفع الإلكتروني</h2>
     <div class="payment">
       <h3>الزين كاش</h3>
-      <img src="zaincash-barcode.png" alt="Zain Cash QR">
+      <img src="IMG_6655.jpeg" alt="Zain Cash QR">
       <p>📞 07714064135</p>
 
       <h3>الكي كارد</h3>
-      <img src="keycard-barcode.png" alt="Key Card QR">
+      <img src="IMG_6655.jpeg" alt="Key Card QR">
       <p>💳 3919 8861 54</p>
     </div>
   </div>
 
   <div class="footer">
-    شكراً لزيارتك 🌟  
-    إذا عندك أي سؤال أو فكرة، لا تتردد تتواصل وياي، أتشرف بخدمتك دائماً 💙
+    💙 شكراً لزيارتك، شرف إلي أخدمك بأي وقت!  
+    لا تتردد تتواصل وياي لأي استفسار أو مشروع تحب نبدأ بيه سوا. 🌟
   </div>
 
 </body>
