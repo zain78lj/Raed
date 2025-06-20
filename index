@@ -1,75 +1,131 @@
 <!DOCTYPE html>
-<html lang="ar">
+<html lang="ar" dir="rtl">
 <head>
-    <meta charset="UTF-8">
-    <title>Raed Al-zaidi - حساباتي</title>
-    <style>
-        body {
-            background-color: #f0f0f0;
-            font-family: 'Tahoma', sans-serif;
-            text-align: center;
-            padding: 30px;
-        }
-        .profile-img {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            border: 3px solid #555;
-            margin-bottom: 20px;
-        }
-        h1 {
-            color: #333;
-            margin-bottom: 40px;
-        }
-        .social-links img {
-            width: 50px;
-            height: 50px;
-            margin: 10px;
-            transition: transform 0.2s;
-        }
-        .social-links img:hover {
-            transform: scale(1.1);
-        }
-        a {
-            text-decoration: none;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <title>Al Zain Code Studio</title>
+  <style>
+    body {
+      background-color: #f2f5f7;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #333;
+      padding: 20px;
+      line-height: 1.7;
+    }
+
+    h1 {
+      font-size: 48px;
+      color: #0077b6;
+      border-bottom: 4px solid #00b4d8;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .section {
+      margin-bottom: 30px;
+    }
+
+    .social-links a {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background-color: #ffffff;
+      padding: 10px 15px;
+      border-radius: 10px;
+      margin: 5px;
+      text-decoration: none;
+      color: #000;
+      box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+      transition: background-color 0.3s;
+    }
+
+    .social-links a:hover {
+      background-color: #d0f0ff;
+    }
+
+    .social-links img {
+      width: 24px;
+      height: 24px;
+    }
+
+    .payment {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 20px;
+    }
+
+    .payment img {
+      width: 200px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      padding: 5px;
+      background-color: #fff;
+    }
+
+    .footer {
+      margin-top: 50px;
+      text-align: center;
+      font-size: 20px;
+      color: #0077b6;
+    }
+
+    .contact-btns a {
+      display: inline-block;
+      background-color: #00b4d8;
+      color: white;
+      padding: 10px 20px;
+      margin: 10px;
+      border-radius: 8px;
+      text-decoration: none;
+    }
+
+    .contact-btns a:hover {
+      background-color: #0077b6;
+    }
+  </style>
 </head>
 <body>
 
-    <!-- صورة شخصية -->
-    <img src="IMG_7220.jpeg" alt="صورة Raed" class="profile-img">
+  <h1>Al Zain Code Studio</h1>
 
-    <!-- الاسم -->
-    <h1>Raed Al-zaidi</h1>
+  <div class="section">
+    <h2>👨‍💻 نبذة عني</h2>
+    <p>
+      أهلاً بيك بموقعي! أني زين العابدين علي صبري، أشتغل على تصميم وتطوير أنظمة إدارية، خدمية، وحاسوبية مخصصة للمؤسسات، العيادات، المختبرات، الكراجات، ومحلات الإنترنت والموبايلات.  
+      شغلي يتميز بالتفاصيل، السهولة، والاحترافية العالية.  
+      وأقدم كذلك خدمة تصميم **مواقع تعريفية شخصية (Portfolio)** حتى تبرز هويتك أو شغلك بشكل راقي ومرتب.
+    </p>
+  </div>
 
-    <!-- الروابط -->
+  <div class="section">
+    <h2>📱 وسائل التواصل</h2>
     <div class="social-links">
-        <!-- واتساب -->
-        <a href="https://wa.me/9647721372316" target="_blank">
-            <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp">
-        </a>
-
-        <!-- تليكرام -->
-        <a href="https://t.me/07721372316" target="_blank">
-            <img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" alt="Telegram">
-        </a>
-
-        <!-- إنستاگرام -->
-        <a href="https://www.instagram.com/x.r_x.n/profilecard/?igsh=MWJzNG1rYnd4bnQ2Mw==" target="_blank">
-            <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram">
-        </a>
-
-        <!-- فيسبوك -->
-        <a href="https://www.facebook.com/share/19Tqat4kwR/?mibextid=wwXIfr" target="_blank">
-            <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook">
-        </a>
-
-        <!-- تيك توك -->
-        <a href="https://www.tiktok.com/@rx.77_7?_t=ZS-8xLVaKB6Fx1&_r=1" target="_blank">
-            <img src="https://cdn-icons-png.flaticon.com/512/3046/3046120.png" alt="TikTok">
-        </a>
+      <a href="sms:07714064135"><img src="https://cdn-icons-png.flaticon.com/512/893/893257.png" alt="SMS"> أرسل SMS</a>
+      <a href="https://wa.me/9647714064135"><img src="https://cdn-icons-png.flaticon.com/512/220/220236.png" alt="WhatsApp"> واتساب</a>
+      <a href="https://www.instagram.com/zain.prog1?igsh=MWZvdjZ1bXE3azdwag%3D%3D&utm_source=qr"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram"> إنستغرام</a>
+      <a href="https://www.facebook.com/share/1Bs3a55ADo/?mibextid=wwXIfr"><img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook"> فيسبوك</a>
+      <a href="https://t.me/lz_y33"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" alt="Telegram"> تليجرام: @lz_y33</a>
     </div>
+  </div>
+
+  <div class="section">
+    <h2>💰 الدفع الإلكتروني</h2>
+    <div class="payment">
+      <h3>الزين كاش</h3>
+      <img src="zaincash-barcode.png" alt="Zain Cash QR">
+      <p>📞 07714064135</p>
+
+      <h3>الكي كارد</h3>
+      <img src="keycard-barcode.png" alt="Key Card QR">
+      <p>💳 3919 8861 54</p>
+    </div>
+  </div>
+
+  <div class="footer">
+    شكراً لزيارتك 🌟  
+    إذا عندك أي سؤال أو فكرة، لا تتردد تتواصل وياي، أتشرف بخدمتك دائماً 💙
+  </div>
 
 </body>
 </html>
